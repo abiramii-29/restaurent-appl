@@ -1,0 +1,106 @@
+body {
+    font-family: 'Patrick Hand', cursive;
+    background-color: #0A0A0A;
+    color: white;
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 1rem;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+}
+
+.navbar-nav a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+.container {
+    width: 50%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #607080;
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.about-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/*.img-hours {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}*/
+
+.image-container {
+    /*flex: 1;*/
+    margin-right: 20px 0;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.hours-container {
+    flex: 1;
+    text-align: center;
+    margin: 10px 0;
+}
+
+h2 {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.hours {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}

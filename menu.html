@@ -1,0 +1,139 @@
+<html>
+    <head>
+        <title>Menu - City Bites</title>
+        <link rel="stylesheet" href="menu.css">
+    </head>
+    <body>
+        <header class="navbar">
+            <div class="navbar-brand">CITY BITES</div>
+            <nav>
+                <ul class="navbar-nav">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1>THE MENU</h1>
+        <div class="header">
+            <ul>
+                <li><a href="#" class="inactive" onclick="showMenu('starters')">STARTERS</a></li>
+                <li><a href="#" class="inactive" onclick="showMenu('mainCourse')">MAIN COURSE</a></li>
+                <li><a href="#" class="inactive" onclick="showMenu('desserts')">DESSERTS</a></li>
+            </ul>
+        </div>
+        <div id="starters" class="menu-category">
+            <div class="menu-item">
+                <h2>Stuffed Mushrooms</h2>
+                <p>Filled with herbed cream cheese</p>
+                <span class="price">Rs.130</span>
+            </div>
+            <div class="menu-item">
+                <h2>Garlic Breadsticks</h2>
+                <p>Mozzarella, cherry tomatoes, and basil</p>
+                <span class="price">Rs.80</span>
+            </div>
+            <div class="menu-item">
+                <h2>Vegetable Spring Rolls</h2>
+                <p>With sweet chili sauce</p>
+                <span class="price">Rs.90</span>
+            </div>
+            <div class="menu-item">
+                <h2>Nachos</h2>
+                <p>Loaded with cheese, jalapenos, and salsa</p>
+                <span class="price">Rs.120</span>
+            </div>
+            <div class="menu-item">
+                <h2>Paneer Tikka</h2>
+                <p> Grilled paneer cubes marinated in spices</p>
+                <span class="price">Rs.140</span>
+            </div>
+            <div class="menu-item">
+                <h2>Potato Wedges</h2>
+                <p>Crispy wedges with a side of sour cream</p>
+                <span class="price">Rs.110</span>
+            </div>
+            <div class="menu-item">
+                <h2>Chicken Tenders</h2>
+                <p>Breaded and fried chicken strips served with honey mustard</p>
+                <span class="price">Rs.140</span>
+            </div>
+        </div>
+        <div id="mainCourse" class="menu-category" style="display: none;">
+            <div class="menu-item">
+                <h2>Veg Lasagna</h2>
+                <p>Layered with ricotta and mozzarella</p>
+                <span class="price">Rs.230</span>
+            </div>
+            <div class="menu-item">
+                <h2>Margherita Pizza</h2>
+                <p>Classic tomato, mozzarella, and basil</p>
+                <span class="price">Rs.250</span>
+            </div>
+            <div class="menu-item">
+                <h2>Pasta Primavera</h2>
+                <p>Mixed vegetables in a light garlic sauce</p>
+                <span class="price">Rs.230</span>
+            </div>
+            <div class="menu-item">
+                <h2>Mutton Rogan Josh</h2>
+                <p>Slow-cooked mutton in a spiced curry, served with naan or rice</p>
+                <span class="price">Rs.300</span>
+            </div>
+            <div class="menu-item">
+                <h2>Spaghetti Carbonara</h2>
+                <p>Classic spaghetti with pancetta, egg, and Parmesan</p>
+                <span class="price">Rs.310</span>
+            </div>
+            <div class="menu-item">
+                    <h2>Chicken Alfredo</h2>
+                    <p>Creamy sauce with grilled chicken</p>
+                    <span class="price">Rs.280</span>
+            </div>
+            <div class="menu-item">
+                    <h2>Eggplant Parmesan</h2>
+                    <p>Baked eggplant with marinara and cheese</p>
+                    <span class="price">Rs.280</span>
+            </div>
+        </div>
+        <div id="desserts" class="menu-category" style="display: none;">
+            <div class="menu-item">
+                <h2>Tiramisu</h2>
+                <p>Classic Italian dessert</p>
+                <span class="price">Rs.180</span>
+            </div>
+            <div class="menu-item">
+                <h2>Choco Lava Cake</h2>
+                <p>Warm chocolate center</p>
+                <span class="price">Rs.90</span>
+            </div>
+            <div class="menu-item">
+                <h2>Apple Pie</h2>
+                <p>Served with vanilla ice cream</p>
+                <span class="price">Rs.130</span>
+            </div>
+            <div class="menu-item">
+                <h2>Baklava</h2>
+                <p>Layered pastry with nuts and honey</p>
+                <span class="price">Rs.100</span>
+            </div>
+            <div class="menu-item">
+                <h2>Kunafa</h2>
+                <p>Shredded phyllo dough with sweet cheese and syrup</p>
+                <span class="price">Rs.210</span>
+            </div>
+            <div class="menu-item">
+                <h2>Fruit Sorbet</h2>
+                <p>Assorted flavors</p>
+                <span class="price">Rs.90</span>
+            </div>
+            <div class="menu-item">
+                <h2>Lemon Tart</h2>
+                <p>With a shortbread crust</p>
+                <span class="price">Rs.70</span>
+            </div>
+        </div>
+        <script src="menu.js"></script>
+    </body>
+</html>

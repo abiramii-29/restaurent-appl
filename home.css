@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(pic2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: 'Patrick Hand', cursive;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 1rem;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+}
+
+.navbar-nav a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+h1{
+    font-size: 24;
+    margin-bottom: 30px;
+}
+li,h1,ul{
+    display: inline;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+ul{
+    margin-left: 70%;
+}
+li{
+    color: grey;
+    cursor: pointer;
+}
+
+li a:hover{
+color: white;
+}
+
+header{
+    margin: 0;
+    color: white;
+}
+
+.title{
+    font-size: 2em;
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+button{
+    width: 40%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-color: black;
+    font-size: 18px;
+    font-family: 'Patrick Hand', cursive;
+ }
+
+ button:hover{
+    background-color: white;
+    color: black;
+ }

@@ -1,0 +1,95 @@
+body {
+    font-family: 'Patrick Hand', cursive;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 1rem;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+}
+
+.navbar-nav a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+.contact-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #607080;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 80px;
+}
+h1 {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+h2 {
+    font-family: 'Patrick Hand', cursive;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+}
+button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Patrick Hand', cursive;
+}
+button:hover {
+    background-color: white;
+    color: black;
+}
